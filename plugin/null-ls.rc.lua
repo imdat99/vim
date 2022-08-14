@@ -8,7 +8,7 @@ null_ls.setup({
       diagnostics_format = '#{m}\n(#{c})'
     }),
     formatting.eslint_d,
-    null_ls.builtins.code_actions.shellCheck,
+    null_ls.builtins.code_actions.statix,
     null_ls.builtins.completion.spell,
   },
   on_attach = function(client, bufnr)
